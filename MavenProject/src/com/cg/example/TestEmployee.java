@@ -22,6 +22,10 @@ public class TestEmployee {
 		MapEmployee.displaySkills(emp);
 		System.out.println("Enter an ID to Search");
 		System.out.print(SearchEmployee.search(emp,sc.nextInt()));
+		{
+			PrintEmployee.displayDetails(Salary);
+			MapEmployee.displaySkills(emp);
+			
 
 	}
 
